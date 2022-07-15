@@ -1,0 +1,59 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #2d2d2d;
+}
+
+.skew
+{
+    padding: 100px 0;
+    background: #ffbb00f6;
+    transform: skew(0deg, -9deg) translateY(-120px);
+}
+
+.wrap
+{
+    padding: 80px 150px;
+    transform: skew(0deg, 9deg);
+}
+h1
+{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+p{
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+
+.wrap-2{
+    text-align: right;
+    padding: 80px 150px;
+}
+
+.wrap-2 h1{
+    color: #ffbb00;
+    text-transform: uppercase;
+}
+.wrap-2 p{
+    color: #fff;
+}
+
+::selection
+{
+    background-color: rgb(217, 0, 255);
+    color: #fff;
+}
+
+.unselection {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+} 
